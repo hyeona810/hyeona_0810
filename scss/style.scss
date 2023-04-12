@@ -1,0 +1,31 @@
+@charset 'utf-8';
+//폰트를 가져온다면 이 자리에 넣어주세요
+
+// 변수는 최상위에 적어줘야 합니다
+$tablet: 1179px;
+$mobile: 539px;
+
+// reset 부분
+
+@import "reset.scss";
+
+// main page 영역
+
+@import "main/header";
+@import "main/visual";
+@import "main/news";
+@import "main/brand";
+@import "main/banner";
+@import "main/comments";
+@import "main/footer";
+@import "main/mediaquery";
+
+// sub page 영역
+@import "sub/common";
+@import "sub/community";
+@import "sub/department";
+@import "sub/join";
+
+// 공통부분
+
+// 세부영역
